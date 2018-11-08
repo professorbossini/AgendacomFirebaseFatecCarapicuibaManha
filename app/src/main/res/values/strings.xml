@@ -9,4 +9,5 @@
     <string name="deletar_contato">Deletar Contato</string>
     <string name="atualizar_contato">Atualizar Contato</string>
     <string name="contato_removido">Contato Removido</string>
+    <string name="title_activity_adiciona_contato">AdicionaContatoActivity</string>
 </resources>
