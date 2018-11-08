@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Agenda com Firebase Fatec Carapicuiba Manha</string>
+    <string name="action_settings">Settings</string>
+    <string name="dica_nome">Digite o nome</string>
+    <string name="dica_fone">Digite o fone</string>
+    <string name="dica_email">Digite o email</string>
+    <string name="contato_adicionado">Contato Adicionado</string>
+    <string name="erro_firebase">Erro ao obter contatos</string>
+    <string name="deletar_contato">Deletar Contato</string>
+    <string name="atualizar_contato">Atualizar Contato</string>
+    <string name="contato_removido">Contato Removido</string>
+</resources>
