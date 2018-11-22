@@ -1,5 +1,7 @@
 package br.com.bossini.agendacomfirebasefateccarapicuibamanha;
 
+import com.google.firebase.database.Exclude;
+
 public class Contato {
     private String id;
     private String nome, fone, email;
@@ -19,6 +21,7 @@ public class Contato {
         setEmail(email);
     }
 
+    @Exclude
     public String getId() {
         return id;
     }
@@ -49,5 +52,15 @@ public class Contato {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    @Override
+    public String toString() {
+        return "Contato{" +
+                "id='" + id + '\'' +
+                ", nome='" + nome + '\'' +
+                ", fone='" + fone + '\'' +
+                ", email='" + email + '\'' +
+                '}';
     }
 }
